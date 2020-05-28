@@ -1,2 +1,38 @@
-#theme: jekyll-theme-minimal
+title: Data Frittata
+description: > 
+  Test description
+  Multiline
+permalink: ':title/'
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
+
+# Author Settings
+author: Dmitry Smirnov
+author-img: photo.jpg # should be in assets
+about-author: Who am I?
+social-twitter: # add your Twitter handle
+social-facebook: # add your Facebook handle
+social-github: drapadubok # add your Github handle
+social-linkedin: # add your Linkedin handle
+social-email: # add your Email address
+
+# Disqus
+discus-identifier: # add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
+
 remote_theme: drapadubok/flexible-jekyll
