@@ -1,27 +1,26 @@
 title: Data Frittata
 description: >
-  Test description
-  Multiline
+  Problem solving: from academia to data engineering, science and business.
 permalink: ':title/'
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-site-twitter: #if your site has a twitter account, enter it here
+baseurl: ""
+url: ""
+site-twitter:
 
 # Author Settings
 author: Dmitry Smirnov
 author-img: square_photo.jpg
 about-author: Who am I?
-social-twitter: # add your Twitter handle
-social-facebook: # add your Facebook handle
-social-github: drapadubok # add your Github handle
-social-linkedin: dmismirnov # add your Linkedin handle
-social-email: dmitry.smirnov@fourkind.com # add your Email address
+social-twitter:
+social-facebook:
+social-github: drapadubok
+social-linkedin: dmismirnov
+social-email: dmitry.smirnov@fourkind.com
 
 # Disqus
-discus-identifier: # add your discus identifier
+discus-identifier:
 
 # Tracker
-analytics: # Google Analytics
+analytics:
 
 # Build Settings
 markdown: kramdown
