@@ -1,3 +1,47 @@
+
+/**/
+p {
+	margin: 0 0 1.66667em;
+}
+
+address {
+	font-family: "Crimson Text", serif;
+	font-style: italic;
+	margin:0 0 1.66667em;
+}
+
+blockquote p:last-child {
+	margin-bottom: 0
+}
+blockquote {
+	color:#1d1d1d;font-family:"Crimson Text",serif;font-size:2rem;line-height:1.25;position:relative;display:block;
+}
+ol, ul {
+	margin:0 0 1.66667em;padding:0 0 0 1.66667em
+}
+
+/* sidebar, current-menu-item needs to be added on click  */
+.menu-item a{
+	color:#aaa;text-decoration:none
+}
+.menu-item {
+	border-top:1px solid #333;padding:.5em 0
+}
+.menu {
+	border-bottom:1px solid #333;font-size:.77778rem;line-height:1.5;letter-spacing:.15em;list-style:none;margin:0;padding:0;text-transform:uppercase
+}
+.current-menu-item a,.menu-item a:hover,.social-links a:hover{
+	color:#d4a259
+}
+
+nav {
+  	text-align: center;
+}
+
+.sidebar {
+	min-height: 50vh;
+}
+
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -29,6 +73,7 @@ body {
  */
 article,
 aside,
+details,
 footer,
 header,
 nav,
@@ -41,8 +86,50 @@ section {
  * `article` contexts in Chrome, Firefox, and Safari.
  */
 h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
+  font-size: 2.66667rem;
+  margin: .75em 0 .375em;
+}
+h2 {
+	font-size: 2rem;
+	margin: .83333em 0 .41667em
+}
+h3 {
+	font-size: 1.66667rem;
+	margin: 1em 0 .5em
+}
+h4 {
+	font-size: 1.33333rem;
+	margin: 1.25em 0 .625em
+}
+h5 {
+	font-size: 1.11111rem;
+	margin: 1.5em 0 .75em
+}
+h6 {
+	font-size: 1rem;
+	margin: 1.66667em 0 .83333em
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #1d1d1d;
+	font-family: "Crimson Text", serif;
+	font-weight: 600;
+	line-height: 1.2;
+	text-rendering: optimizeLegibility;
+}
+
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child {
+	margin-top: 0;
 }
 
 /* Grouping content
@@ -770,6 +857,10 @@ template {
 
 html {
   line-height: 1.5;
+  font-size:112.5%;
+  height:100%;
+  min-height:100%
+
 }
 
 body {
@@ -933,7 +1024,7 @@ table tfoot td {
   width: 240px;
   height: 100%;
   padding: 20px 10px;
-  background-color: #ffffff;
+  background-color: #1d1d1d;
 }
 
 .about {
@@ -948,7 +1039,7 @@ table tfoot td {
   -webkit-border-radius: 100%;
           border-radius: 100%;
   overflow: hidden;
-  background-color: #333030;
+  background-color: #d4a259;
 }
 
 .about img {
@@ -975,7 +1066,7 @@ table tfoot td {
   padding-bottom: 15px;
   font-size: 16px;
   text-transform: uppercase;
-  color: #333030;
+  color: #fff;
   font-weight: 700;
 }
 
@@ -1023,7 +1114,7 @@ table tfoot td {
 
 .contact .contact-title {
   position: relative;
-  color: #333030;
+  color: #515151;
   font-weight: 400;
   font-size: 12px;
   margin: 0 0 5px;
@@ -1088,7 +1179,7 @@ table tfoot td {
 }
 
 .contact ul li a:hover {
-  color: #333030;
+  color: #d4a259;
   -webkit-transform: scale(1.2);
       -ms-transform: scale(1.2);
           transform: scale(1.2);
@@ -1164,7 +1255,7 @@ footer .copyright {
 .post .post-content .post-title a {
   font-family: 'PT Serif', serif;
   text-decoration: none;
-  color: #263959;
+  color: #1d1d1d;
 }
 
 .post .post-content p {
@@ -1408,7 +1499,7 @@ a.newer-posts:hover {
             justify-content: space-between;
     width: 100%;
     padding: 10px;
-    background-color: #ffffff;
+    background-color: #1d1d1d;
     -webkit-box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
             box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
   }
